@@ -1,23 +1,19 @@
-
 package bank.management.system;
-
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
 
-
 public class Deposit extends JFrame implements ActionListener{
-    
-    
+        
     JLabel image, text;
     JTextField amount;
     JButton deposit, back;
     String pinno;
-       Deposit(String pinno){
+    Deposit(String pinno){
     this.pinno = pinno;
-     setLayout(null);
+    setLayout(null);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/atm.jpg"));
         Image i2 = i1.getImage().getScaledInstance(900, 900,Image.SCALE_DEFAULT );
@@ -47,13 +43,6 @@ public class Deposit extends JFrame implements ActionListener{
         back.setBounds(355,520,150,30);
         back.addActionListener(this);
         image.add(back);
-    
-    
-    
-    
-    
-    
-    
     
         setSize(900,900);
         setLocation(300,0);
