@@ -42,7 +42,7 @@ A Java-based Desktop bank management system with integrated ATM functionality. T
 💼 Aspiring Java Full Stack Developer  
 📧 [prabirrout32@gmail.com](mailto:prabirrout32@gmail.com)  
 🌐 [GitHub: Prabir-Git](https://github.com/Prabir-Git)  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-username/)
+🔗 [LinkedIn](https://www.linkedin.com/in/prabir-rout32/)
 
 📍 Bangalore, India
 
