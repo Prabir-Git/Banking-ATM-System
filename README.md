@@ -43,6 +43,7 @@ A Java-based Desktop bank management system with integrated ATM functionality. T
 📧 [prabirrout32@gmail.com](mailto:prabirrout32@gmail.com)  
 🌐 [GitHub: Prabir-Git](https://github.com/Prabir-Git)  
 🔗 [LinkedIn](https://www.linkedin.com/in/your-username/)
+
 📍 Bangalore, India
 
 ---
