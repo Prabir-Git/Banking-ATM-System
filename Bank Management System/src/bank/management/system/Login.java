@@ -1,4 +1,3 @@
-
 package bank.management.system;
 
 import javax.swing.*;
@@ -7,12 +6,6 @@ import java.awt.event.*;
 import java.sql.*;
 
 public class Login extends JFrame implements ActionListener{
-
-//    JLabel l1,l2,l3;
-//    JTextField tf1;
-//    JPasswordField pf2;
-//    JButton b1,b2,b3;
-    
     
         JLabel label;
         JLabel text;
@@ -107,7 +100,6 @@ public class Login extends JFrame implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent ae) {
-       // throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         if(ae.getSource()== login){
             Conn conn = new Conn();
             String cardnum = cardTextField.getText();
