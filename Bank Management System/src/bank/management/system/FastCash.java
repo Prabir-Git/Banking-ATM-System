@@ -1,4 +1,3 @@
-
 package bank.management.system;
 
 import java.awt.*;
@@ -6,7 +5,6 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
 import java.util.Date;
-
 
 public class FastCash extends JFrame implements ActionListener{
 
@@ -83,7 +81,7 @@ public class FastCash extends JFrame implements ActionListener{
             try{
                 ResultSet rs = conn.s.executeQuery("select * from bank where pin = '"+pinno+"'");
                 int balance = 0 ; 
-                while(rs.next()){// har ek row in bank table jisme required pinno he wo loop me aayega
+                while(rs.next()){
                     if(rs.getString("type").equals("Deposit")){
                         balance += Integer.parseInt(rs.getString("amount"));
                     }else{
