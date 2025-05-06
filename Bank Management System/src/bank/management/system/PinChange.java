@@ -1,14 +1,10 @@
-
 package bank.management.system;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-
-
 public class PinChange extends JFrame implements ActionListener{
-
     
     JLabel image, text, pin, rpin;
     JTextField pintext, rpintext;
@@ -113,7 +109,5 @@ public class PinChange extends JFrame implements ActionListener{
   
     public static void main(String args[]) {
        new PinChange("").setVisible(true);
-    }
-
-   
+    }   
 }
